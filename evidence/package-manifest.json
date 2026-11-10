@@ -11,8 +11,8 @@
   },
   {
     "file": "README.md",
-    "sizeBytes": 9758,
-    "sha256": "52a85133bc97c40d8dd1fd9436614e97c3b8992105d485733a6a17a5de4f20d1"
+    "sizeBytes": 19606,
+    "sha256": "fef5084dc5f6feeda9fbbaf9aac40b41dc0ab145fcb21cd3ec689f63766e9fc2"
   },
   {
     "file": "archive/README.md",
@@ -70,9 +70,14 @@
     "sha256": "607e39258890affa8ada1846559bd99af9e5670b85cc56ea71340279250b9536"
   },
   {
+    "file": "docs/new-computer-validation.md",
+    "sizeBytes": 2669,
+    "sha256": "69758961235549ed6053fde8a427a47c14e92c1438f56c3ab58deb33a58740e2"
+  },
+  {
     "file": "docs/validation.md",
-    "sizeBytes": 1848,
-    "sha256": "6791fb762893e7c770d20cef2eec76c7a436d167778daec798856c5f1dbc0acf"
+    "sizeBytes": 2067,
+    "sha256": "45a270483c1ef2a076079ac58f9a5de28cb5af8947ad369bbb907fdaf4fb8f84"
   },
   {
     "file": "evidence/attack-repair-validation.json",
@@ -103,6 +108,11 @@
     "file": "evidence/high-hp-runtime-validation.json",
     "sizeBytes": 287,
     "sha256": "663bbb31f2b2d30c4cbb18706a0022d3c95bf612c91c109924ab23c9fbe8c155"
+  },
+  {
+    "file": "evidence/new-computer-validation.json",
+    "sizeBytes": 925,
+    "sha256": "b22a57c3df9eb4e32b02bf9a4dae74b8fbba5e2ca81f0c450d15c8d9e88c040c"
   },
   {
     "file": "evidence/original-hashes.json",

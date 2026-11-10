@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-10",
+  "downloadedCommit": "af78e6562070a521c6fcc972422e078eb5101133",
+  "downloadMethod": "GitHub public source ZIP for the exact commit",
+  "zipBytes": 10328650,
+  "manifestFilesVerified": 47,
+  "checks": {
+    "gitMetadataRequired": false,
+    "chineseAndSpacesInPaths": true,
+    "buildFromDifferentDirectory": true,
+    "generatedIniMatchesDownloadedBytes": true,
+    "nodeRegressionTestsPassed": 5,
+    "pythonIsolatedModeMaterialsCheckPassed": true,
+    "separateNoProfilePowerShell7Process": true,
+    "whatIfDoesNotWrite": true,
+    "installIntoMissingDirectory": true,
+    "installedHashMatchesDownloadedIni": true,
+    "repeatedInstallIdempotent": true,
+    "existingFileBackupPreserved": true,
+    "backupCanBeRestored": true,
+    "manualCopyNeedsNoDeveloperTools": true,
+    "oldWorkstationPathRequired": false
+  },
+  "actualOtherComputerTested": false,
+  "liveGameTestedInThisRun": false
+}
