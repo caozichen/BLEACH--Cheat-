@@ -1,0 +1,19 @@
+{
+  "pid": 8424,
+  "matchedRamViews": 4,
+  "hostRamAddress": "0x212322d0000",
+  "playerPointer": "0x8d05fe4",
+  "attackBonuses": [
+    3100,
+    3100,
+    3100,
+    3100,
+    3100,
+    3100
+  ],
+  "hp": 99999,
+  "maxHp": 99999,
+  "defense": 9999,
+  "sp": 999,
+  "attack32xVerified": true
+}

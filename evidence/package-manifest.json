@@ -1,0 +1,237 @@
+[
+  {
+    "file": ".gitattributes",
+    "sizeBytes": 257,
+    "sha256": "a3b43e98ffbce4de0ff8426bb07cb17ca8a8dc518ce6334b7410f24d7c4f301b"
+  },
+  {
+    "file": ".gitignore",
+    "sizeBytes": 543,
+    "sha256": "3356250ebbf0ab4d5a052239c05fad15a549bbee031a8fde9690f69923ba7ce2"
+  },
+  {
+    "file": "README.md",
+    "sizeBytes": 9758,
+    "sha256": "52a85133bc97c40d8dd1fd9436614e97c3b8992105d485733a6a17a5de4f20d1"
+  },
+  {
+    "file": "archive/README.md",
+    "sizeBytes": 1052,
+    "sha256": "c730fc464bd47ee0fef1294b176431f737e44d52e0051826a9f7b4b8fb1a66cd"
+  },
+  {
+    "file": "archive/reports/检查结果.md",
+    "sizeBytes": 6230,
+    "sha256": "27d5dc237fdbf31ec274aec44c77ebb5887f4d340ff9bfd7962d7701ea3861bb"
+  },
+  {
+    "file": "archive/reports/金手指修复说明.md",
+    "sizeBytes": 3791,
+    "sha256": "cb6ffe51b4dfe50e6c2b74b546e2dfdd1107d9c0998148bf20d519f7d597011b"
+  },
+  {
+    "file": "archive/scripts/inspect_game.py",
+    "sizeBytes": 1457,
+    "sha256": "dfef51561aa471e6f16bbf06747e03e527acde4efacd4b5c57f6cf1c69424a9d"
+  },
+  {
+    "file": "archive/scripts/install-repaired-cheats.ps1",
+    "sizeBytes": 1378,
+    "sha256": "efb1277607fe10b912d553d5dbe180a67efef7660b1f17be8811ada7c02914de"
+  },
+  {
+    "file": "archive/scripts/launch-copy-test.ps1",
+    "sizeBytes": 1302,
+    "sha256": "2c00fd6494795cdb79aa83a8827b10eb1b2c9251471eb4b7e535c4c354e07383"
+  },
+  {
+    "file": "archive/scripts/read_test_memory.py",
+    "sizeBytes": 3320,
+    "sha256": "f90a453bd802042a004e2ffa0ab074abef6f7b271e881095e61a6a3febb404f7"
+  },
+  {
+    "file": "archive/scripts/repair-cheats.mjs",
+    "sizeBytes": 4359,
+    "sha256": "cd0d1a98c1538132121811c20fb13485b01c7741b5c2b816a967a34270ebd4ef"
+  },
+  {
+    "file": "archive/scripts/runtime-check.mjs",
+    "sizeBytes": 2112,
+    "sha256": "f827b57da1b546b9ebd4be2a20c3bb784d1883b059eef46a0beba1932978b26e"
+  },
+  {
+    "file": "cheats/UCAS40234.ini",
+    "sizeBytes": 3467,
+    "sha256": "9a78db0eab09c77ecca5610c00ee59c12b8be6132405175ae92e14760289e202"
+  },
+  {
+    "file": "docs/analysis.md",
+    "sizeBytes": 3803,
+    "sha256": "607e39258890affa8ada1846559bd99af9e5670b85cc56ea71340279250b9536"
+  },
+  {
+    "file": "docs/validation.md",
+    "sizeBytes": 1848,
+    "sha256": "6791fb762893e7c770d20cef2eec76c7a436d167778daec798856c5f1dbc0acf"
+  },
+  {
+    "file": "evidence/attack-repair-validation.json",
+    "sizeBytes": 487,
+    "sha256": "c49ab8151e8e56998d83f82952c4c4263f090e08ff7059dcdf1a1c905d4b2317"
+  },
+  {
+    "file": "evidence/attack-runtime-validation.json",
+    "sizeBytes": 307,
+    "sha256": "4383bc1d77c06c25f4cbe8dc4f80b0ab7229c06c939e22b537edab2eedcfe7cb"
+  },
+  {
+    "file": "evidence/attack_KEY_FINDING.txt",
+    "sizeBytes": 1839,
+    "sha256": "b121333e8b275c98a9ec82691f77cc3cc29adb33cb16bf02ce4b5aa92de3cfa0"
+  },
+  {
+    "file": "evidence/cheat-analysis.json",
+    "sizeBytes": 6317,
+    "sha256": "c5b6451ba0af5175f38e11790176bc034973009c5a2a6f95c48900b7a0e3eed8"
+  },
+  {
+    "file": "evidence/combined-runtime-validation.json",
+    "sizeBytes": 307,
+    "sha256": "4383bc1d77c06c25f4cbe8dc4f80b0ab7229c06c939e22b537edab2eedcfe7cb"
+  },
+  {
+    "file": "evidence/high-hp-runtime-validation.json",
+    "sizeBytes": 287,
+    "sha256": "663bbb31f2b2d30c4cbb18706a0022d3c95bf612c91c109924ab23c9fbe8c155"
+  },
+  {
+    "file": "evidence/original-hashes.json",
+    "sizeBytes": 400,
+    "sha256": "13610514678512639f0efc5958c40a81a5dc8a7e69177538f53df8387ae9b676"
+  },
+  {
+    "file": "evidence/source-package-checks.json",
+    "sizeBytes": 1110,
+    "sha256": "87d764664a61dd7525b810f4fba87c805e6baeaee0667f6280f76da5856fe9d3"
+  },
+  {
+    "file": "evidence/stage-findings.json",
+    "sizeBytes": 934,
+    "sha256": "bdbe51275c598cedd0612aa1c917f85bb36b4ad8e7069e8311b7a71f01a346c0"
+  },
+  {
+    "file": "materials/README.md",
+    "sizeBytes": 4344,
+    "sha256": "6aa1d70daff289da56d8304c05a0d87feeb0f053aad084b809be45d5a4c64a3b"
+  },
+  {
+    "file": "materials/UCAS40234.original.ini",
+    "sizeBytes": 2087,
+    "sha256": "f550b53d61af5b83b4ad8c79308665b763c7397aed116e4c71aa87eb9a6de292"
+  },
+  {
+    "file": "materials/ram/current-RAM.dump",
+    "sizeBytes": 25165824,
+    "sha256": "11149ad2f7d3377da23ea16031c2473f1239cb787b9bcecb14dc7cc4d8f833eb"
+  },
+  {
+    "file": "materials/ram/manifest.json",
+    "sizeBytes": 513,
+    "sha256": "a4a0fa206d90fb3455c92fa09df5bf495eb6a316eb6b2f82a8bad6f8f4e91343"
+  },
+  {
+    "file": "materials/ram/stage-RAM.dump",
+    "sizeBytes": 25165824,
+    "sha256": "b998682c7eaa16d9586b00d967b8fa0e8e39470436f855aa4320cb50635dae63"
+  },
+  {
+    "file": "package.json",
+    "sizeBytes": 339,
+    "sha256": "76db5e12aa0eb272bbf9854ee5be6a701e3bf1e13c45b64ba99368b7e2f8901b"
+  },
+  {
+    "file": "reference/README.md",
+    "sizeBytes": 1516,
+    "sha256": "19bedb1934ee6c62edd0c11b1a3a1468966325873b55a9bdf508675afd1e3bd5"
+  },
+  {
+    "file": "reference/manifest.json",
+    "sizeBytes": 1274,
+    "sha256": "45817c5b0c3f6ea74715c291ef70fc38cb9b4b2f039f5d22ddcc6adb30271ae5"
+  },
+  {
+    "file": "reference/ppsspp-v1.19.3/CwCheat-1.19.3.cpp",
+    "sizeBytes": 34868,
+    "sha256": "e8efec96bcde241df5791c0c62044e2d960a9a493638b2537539f371b8a233a0"
+  },
+  {
+    "file": "reference/ppsspp-v1.19.3/GameSubscriber-1.19.3.cpp",
+    "sizeBytes": 3673,
+    "sha256": "74dd5f261cbc8bcb63cf617281bed758ced8d0704e2c8e65e0bb4226593e1d24"
+  },
+  {
+    "file": "reference/ppsspp-v1.19.3/LICENSE.TXT",
+    "sizeBytes": 19740,
+    "sha256": "ff265754cbb2e0d3b674f90a79ef5bbaa1f7f1075aec9f5e241524520e5049fa"
+  },
+  {
+    "file": "reference/ppsspp-v1.19.3/MemMap-1.19.3.cpp",
+    "sizeBytes": 15922,
+    "sha256": "07326bf1400acb4288b57c5eb813b6208f34831e9acc1b4f0b8011c5a9a44e69"
+  },
+  {
+    "file": "reference/ppsspp-v1.19.3/MemorySubscriber-1.19.3.cpp",
+    "sizeBytes": 11680,
+    "sha256": "a5ecd5964640dfb87bd345f494a1b91cea2cfe33eb06f57a8f859cb8ba3d66bd"
+  },
+  {
+    "file": "requirements-analysis.txt",
+    "sizeBytes": 94,
+    "sha256": "9ce539bf9ebc37f1c5330cc4177fd4d841f7816a8c0267037795f2fa72b91d2f"
+  },
+  {
+    "file": "scripts/Install-Cheats.ps1",
+    "sizeBytes": 1598,
+    "sha256": "d86507ae5d91e9a4aea8e642a0b25be5517b70125d935de3a1fb8d427b3deae0"
+  },
+  {
+    "file": "scripts/Start-Test.ps1",
+    "sizeBytes": 2704,
+    "sha256": "40932af488c74cfd887b0d5955d579927617e29803052ebbb8f2f91b94d6a64f"
+  },
+  {
+    "file": "scripts/build-cheats.mjs",
+    "sizeBytes": 3760,
+    "sha256": "aa9641faf526cbfcaed745d0d1cc96d3375ed64088a2c2c4a153cd88dd31cab9"
+  },
+  {
+    "file": "scripts/fetch_reference.py",
+    "sizeBytes": 2416,
+    "sha256": "8883148d6dfe3da9db1763797059f990094a424f0462da1003bd437d9d704c2a"
+  },
+  {
+    "file": "scripts/inspect_game.py",
+    "sizeBytes": 2197,
+    "sha256": "08d678e78fcab017bf78ff94ce741f6765f806dcb89826eac2c5dd2a317b38bb"
+  },
+  {
+    "file": "scripts/prepare_manifest.py",
+    "sizeBytes": 1489,
+    "sha256": "45810934d70a5bad89407e71e369b7a334d07e76fdedb0d929c06911bfb0a2db"
+  },
+  {
+    "file": "scripts/read_runtime.py",
+    "sizeBytes": 5774,
+    "sha256": "67eeb1af7ee3ba1ec9b1448e16bba5341b0cc31b46868d5ed0680ea75525b47c"
+  },
+  {
+    "file": "scripts/verify_materials.py",
+    "sizeBytes": 1742,
+    "sha256": "898b58ab1e2f4fc924654a573930809a0e6bb725fdc18b3ca8586473cd46ecdd"
+  },
+  {
+    "file": "tests/build-cheats.test.mjs",
+    "sizeBytes": 3007,
+    "sha256": "aeb52d6eb0f3dde5cb33db3d7e670ec79e2ac3f4a740e9fa94671ed1b2c7d0ef"
+  }
+]

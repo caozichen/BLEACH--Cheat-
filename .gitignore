@@ -1,0 +1,46 @@
+# Applications, game images, archives and third-party binaries
+*.exe
+*.dll
+*.pdb
+*.iso
+*.cso
+*.chd
+*.zip
+*.rar
+*.7z
+*.msi
+*.whl
+
+# Game memory, save data and all workstation/test state
+*.dump
+!materials/ram/*.dump
+*.ppst
+*.ppst.undo
+*.bak
+*.BIN
+*.SFO
+*.PNG
+memstick/
+/PPSSPP*/
+work/
+local/
+分析依赖/
+
+# Dependency caches and editor state
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+
+# Authentication, machine configuration and access reports
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+credentials*
+*repo-access.json
+*test-pid.txt

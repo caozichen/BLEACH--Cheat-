@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-10",
+  "scope": "source packaging and portable tooling; no new live gameplay session",
+  "node": "24.18.0",
+  "python": "3.12 x64",
+  "checks": {
+    "nodeRegressionTests": { "passed": 5, "failed": 0 },
+    "defaultIniMatchesPreviouslyInstalledBytes": true,
+    "attackPointerCommandStructure": true,
+    "highHpOptionWritesCurrentAndMaximumAs32Bit": true,
+    "unrelatedOriginalBlocksPreserved": true,
+    "unsupportedInputsRejected": true,
+    "powershellScriptsParse": true,
+    "installerTemporaryDirectoryBackupPreserved": true,
+    "installerOutputHashVerified": true,
+    "installerRepeatedInstallIsIdempotent": true,
+    "pythonSourceCompiles": true,
+    "capstoneDisassemblyEntryRanOnBundledStageSnapshot": true,
+    "ppssppReferencesMatchPinnedUpstreamTag": true
+  },
+  "previousLiveEvidence": "combined-runtime-validation.json",
+  "limits": [
+    "No new emulator process was launched for this packaging run.",
+    "New portable live-memory and launch wrappers were not rerun against a live game.",
+    "No damage-dealt or damage-taken gameplay comparison was performed."
+  ]
+}

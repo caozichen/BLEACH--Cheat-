@@ -1,0 +1,24 @@
+{
+  "environment": "PPSSPP v1.19.3 / UCAS40234 1.00",
+  "enabledAttackMultiplier": 32,
+  "percentBonus": 3100,
+  "targetOffsets": [
+    "0x00000918",
+    "0x0000091C",
+    "0x00000920",
+    "0x00000924",
+    "0x00000928",
+    "0x0000092C"
+  ],
+  "currentTargets": [
+    "0x08D06E3C",
+    "0x08D06E40",
+    "0x08D06E44",
+    "0x08D06E48",
+    "0x08D06E4C",
+    "0x08D06E50"
+  ],
+  "offlineSnapshotWriteCheck": "passed",
+  "unrelatedBytesUnchanged": true,
+  "originalFileUnchanged": true
+}

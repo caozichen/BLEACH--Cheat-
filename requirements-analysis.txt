@@ -1,0 +1,2 @@
+# Only the optional MIPS disassembly script needs an external Python package.
+capstone==5.0.9

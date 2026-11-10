@@ -1,0 +1,12 @@
+* -text
+*.ini -text
+*.mjs text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ps1 text eol=lf
+# Preserve byte hashes and the original line endings of archived evidence.
+archive/** -text
+evidence/** -text
+materials/** -text
+reference/** -text

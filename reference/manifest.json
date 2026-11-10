@@ -1,0 +1,27 @@
+[
+  {
+    "file": "reference/ppsspp-v1.19.3/CwCheat-1.19.3.cpp",
+    "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/v1.19.3/Core/CwCheat.cpp",
+    "sha256": "e8efec96bcde241df5791c0c62044e2d960a9a493638b2537539f371b8a233a0"
+  },
+  {
+    "file": "reference/ppsspp-v1.19.3/MemorySubscriber-1.19.3.cpp",
+    "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/v1.19.3/Core/Debugger/WebSocket/MemorySubscriber.cpp",
+    "sha256": "a5ecd5964640dfb87bd345f494a1b91cea2cfe33eb06f57a8f859cb8ba3d66bd"
+  },
+  {
+    "file": "reference/ppsspp-v1.19.3/GameSubscriber-1.19.3.cpp",
+    "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/v1.19.3/Core/Debugger/WebSocket/GameSubscriber.cpp",
+    "sha256": "74dd5f261cbc8bcb63cf617281bed758ced8d0704e2c8e65e0bb4226593e1d24"
+  },
+  {
+    "file": "reference/ppsspp-v1.19.3/MemMap-1.19.3.cpp",
+    "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/v1.19.3/Core/MemMap.cpp",
+    "sha256": "07326bf1400acb4288b57c5eb813b6208f34831e9acc1b4f0b8011c5a9a44e69"
+  },
+  {
+    "file": "reference/ppsspp-v1.19.3/LICENSE.TXT",
+    "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/v1.19.3/LICENSE.TXT",
+    "sha256": "ff265754cbb2e0d3b674f90a79ef5bbaa1f7f1075aec9f5e241524520e5049fa"
+  }
+]

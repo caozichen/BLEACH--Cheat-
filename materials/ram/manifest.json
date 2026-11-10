@@ -1,0 +1,16 @@
+[
+  {
+    "file": "materials/ram/stage-RAM.dump",
+    "sizeBytes": 25165824,
+    "sha256": "b998682c7eaa16d9586b00d967b8fa0e8e39470436f855aa4320cb50635dae63",
+    "pspRamBase": "0x08800000",
+    "purpose": "controllable stage, original cheats active"
+  },
+  {
+    "file": "materials/ram/current-RAM.dump",
+    "sizeBytes": 25165824,
+    "sha256": "11149ad2f7d3377da23ea16031c2473f1239cb787b9bcecb14dc7cc4d8f833eb",
+    "pspRamBase": "0x08800000",
+    "purpose": "world map reference snapshot"
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "base": "0x08d06524",
+  "hp": {
+    "address": "0x08d06cbc",
+    "value": 9999
+  },
+  "sp": {
+    "address": "0x08d06cc8",
+    "value": 999
+  },
+  "hollow": {
+    "address": "0x08d06cca",
+    "value": 999
+  },
+  "attackChain": [
+    "0x08cd92a0",
+    "0x08d04c20",
+    "0x08d06a88"
+  ],
+  "spAlt": {
+    "address": "0x08d06cc8",
+    "value": 999
+  },
+  "attackTarget": {
+    "address": "0x08d06e3c",
+    "words": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "scratch": [
+    {
+      "address": "0x08f1d46c",
+      "value": "0x08d06524"
+    },
+    {
+      "address": "0x089e64a4",
+      "value": "0x08cd92a0"
+    },
+    {
+      "address": "0x089e64b0",
+      "value": "0x08800ff0"
+    },
+    {
+      "address": "0x08800ff0",
+      "value": "0x08d04c20"
+    },
+    {
+      "address": "0x08800ff4",
+      "value": "0x08800ff0"
+    },
+    {
+      "address": "0x08800ff8",
+      "value": "0x08d06a88"
+    }
+  ]
+}

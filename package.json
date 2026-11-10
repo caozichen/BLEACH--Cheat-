@@ -1,0 +1,12 @@
+{
+  "name": "bleach-soul-carnival-cheats",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "UCAS40234 cheat repair source, analysis tools and verification evidence",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build-cheats.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

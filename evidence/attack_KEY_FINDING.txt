@@ -1,0 +1,12 @@
+CRITICAL ARITHMETIC CORRECTION: old target 0x08D06E3C equals main 0x08D06524 + 0x918, NOT 0xB18. It equals actual actor 0x08D064E0 + 0x95C. Secondary 0x08D06A88 + 0x3B4 = 0x08D06E3C. Prior summary incorrectly added 0x200.
+
+Attack calculation 0x08833B90..0x08833E90 reads actor+0x95C/0x960/0x964/0x968/0x96C/0x970 based on damage element. It divides signed integer percent modifier by 100.0, then adds 1.0 and multiplies the damage coefficient. At 0x08833D6C..0x08833DD8.
+
+Thus setting these 6 int32 percent bonuses to 1500 yields 16x (= 1 + 1500/100); 3100 yields 32x; 6300 yields 64x; 65535 yields 656.35x, NOT 65535x.
+
+Base actual actor is 0x08D064E0; static *(0x08F1D46C)=0x08D06524 points into actor + 0x44. HP actor+0x7DC = static_ptr+0x798, SP actor+0x7E8 = static_ptr+0x7A4. Attack stat actor+0x934 = static_ptr+0x8F0.
+Further details:
+- Jump table 0x089DB3A0 entries for damage type 0..6 point to 0x08833D6C, 0x08833D7C, 0x08833D7C, 0x08833D8C, 0x08833D9C, 0x08833DAC, 0x08833DBC, reading +95C, +964, +964, +960, +970, +96C, +968 respectively. All 6 percent modifier fields covered by old intended repeat.
+- Actor+934 is attack 999; +938 defense 141; +93C spiritual attack 501 in snapshot. Attack routine 0x08833E94 computes 5*actor[934] - input defense, minimum 1, then uses 0x08833B90. Spirit routine 0x08833F34 uses actor[93C] etc. Therefore the 6 bonuses affect common downstream damage for both paths.
+- Post-calculation cap routine 0x08834004..0x0883408C clamps damage to 9999 normally; certain type/status condition raises it to 999999. Changing multiplier above 16 is accepted in this math, but actual displayed/applied damage may hit cap.
+- Direct static pointer addressing from *(08F1D46C): bonus offsets 918,91C,920,924,928,92C. Use int32 type 2 writes. This avoids scratch writes to game globals 089E64B0 / 08800FF0.
